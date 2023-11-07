@@ -13,7 +13,9 @@
         <input type="text" id="goal" v-model="enteredValue" />
         <button v-on:click="addGoal">Add Goal</button>
       </div>
-      <ul></ul>
+      <ul>
+        <li v-for="goal in goals"></li>
+      </ul>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="app.js"></script>
