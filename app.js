@@ -1,3 +1,13 @@
+Vue.createApp({
+  // data: function() {}
+  data() {
+    return {
+      goals: [],
+      enteredValue: ''
+    };
+  }
+});
+
 // const buttonEl = document.querySelector('button');
 // const inputEl = document.querySelector('input');
 // const listEl = document.querySelector('ul');
